@@ -1,0 +1,5 @@
+* source CMOS
+M_M1         N000402 N00174 N00178 N00178 MbreakP           
+M_M2         N000402 N00174 0 0 MbreakN           
+V_V1         N00178 0 5Vdc
+V_V2         N00174 0 0Vdc

@@ -1,0 +1,133 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("MbreakP3")
+        ("MbreakN3")
+        ("VDC")
+    )
+    ("instances"
+        ("M1"
+            ("device_name"	"MbreakP3")
+            ("pspice_path"	"M_M1")
+            ("level"	"0")
+            ("model_params"
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("W"
+                    ("value"	"")
+                    ("pspice_param"	"W")
+                )
+                ("L"
+                    ("value"	"")
+                    ("pspice_param"	"L")
+                )
+            )
+        )
+        ("M2"
+            ("device_name"	"MbreakN3")
+            ("pspice_path"	"M_M2")
+            ("level"	"0")
+            ("model_params"
+                ("M"
+                    ("value"	"")
+                    ("pspice_param"	"M")
+                )
+                ("NRB"
+                    ("value"	"")
+                    ("pspice_param"	"NRB")
+                )
+                ("NRG"
+                    ("value"	"")
+                    ("pspice_param"	"NRG")
+                )
+                ("NRS"
+                    ("value"	"")
+                    ("pspice_param"	"NRS")
+                )
+                ("NRD"
+                    ("value"	"")
+                    ("pspice_param"	"NRD")
+                )
+                ("PS"
+                    ("value"	"")
+                    ("pspice_param"	"PS")
+                )
+                ("PD"
+                    ("value"	"")
+                    ("pspice_param"	"PD")
+                )
+                ("AS"
+                    ("value"	"")
+                    ("pspice_param"	"AS")
+                )
+                ("AD"
+                    ("value"	"")
+                    ("pspice_param"	"AD")
+                )
+                ("W"
+                    ("value"	"")
+                    ("pspice_param"	"W")
+                )
+                ("L"
+                    ("value"	"")
+                    ("pspice_param"	"L")
+                )
+            )
+        )
+        ("V1"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V1")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"5Vdc")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+        ("V2"
+            ("device_name"	"VDC")
+            ("pspice_path"	"V_V2")
+            ("level"	"0")
+            ("model_params"
+                ("DC"
+                    ("value"	"0Vdc")
+                    ("pspice_param"	"DC")
+                )
+            )
+        )
+    )
+)

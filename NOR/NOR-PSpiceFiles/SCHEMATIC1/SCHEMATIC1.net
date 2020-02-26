@@ -1,0 +1,10 @@
+* source NOR
+M_M1         N000402 N00347 N00310 N00310 MbreakP           
+M_M2         N00317 N00381 N000402 N000402 MbreakP           
+M_M4         N00317 N00381 0 0 MbreakN           
+M_M5         N00317 N00347 0 0 MbreakN           
+V_V1         N00310 0 5Vdc
+V_V2         N00347 0  
++PULSE 4.8 4.8 0 0 0 0 0
+V_V3         N00381 0  
++PULSE 5 5 0 0 0 0 0

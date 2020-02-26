@@ -1,0 +1,140 @@
+
+**** 01/18/20 13:09:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-nand"  [ E:\VLSI\NAND\NAND-PSpiceFiles\SCHEMATIC1\nand.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "nand.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\arik0\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NAND
+M_M1         N00310 N00324 N00296 N00296 MbreakP           
+M_M2         N00310 N00348 N00296 N00296 MbreakP           
+M_M3         N00310 N00324 N000870 N000870 MbreakN           
+M_M4         N000870 N00348 0 0 MbreakN           
+V_V1         N00296 0 5Vdc
+V_V2         N00324 0  
++PULSE 0 0 0 0 0 0 0
+V_V3         N00348 0  
++PULSE 1 1 0 0 0 0 0
+
+**** RESUMING nand.cir ****
+.END
+
+**** 01/18/20 13:09:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-nand"  [ E:\VLSI\NAND\NAND-PSpiceFiles\SCHEMATIC1\nand.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakP         MbreakN         
+               PMOS            NMOS            
+       LEVEL    1               1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    0               0            
+          KP   20.000000E-06   20.000000E-06 
+       GAMMA    0               0            
+         PHI     .6              .6          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ    0               0            
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+         TOX    0               0            
+          XJ    0               0            
+       UCRIT   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 01/18/20 13:09:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-nand"  [ E:\VLSI\NAND\NAND-PSpiceFiles\SCHEMATIC1\nand.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00296)    5.0000 (N00310)    5.0000 (N00324)    0.0000 (N00348)    1.0000     
+
+(N000870) 250.5E-09                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.010E-12
+    V_V2         0.000E+00
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   2.51E-11  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/18/20 13:09:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-nand"  [ E:\VLSI\NAND\NAND-PSpiceFiles\SCHEMATIC1\nand.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

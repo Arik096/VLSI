@@ -1,0 +1,6 @@
+.ALIASES
+M_M1            M1(d=N000402 g=N00174 s=N00178 s=N00178 ) CN @CMOS.SCHEMATIC1(sch_1):INS28@BREAKOUT.MbreakP3.Normal(chips)
+M_M2            M2(d=N000402 g=N00174 s=0 s=0 ) CN @CMOS.SCHEMATIC1(sch_1):INS57@BREAKOUT.MbreakN3.Normal(chips)
+V_V1            V1(+=N00178 -=0 ) CN @CMOS.SCHEMATIC1(sch_1):INS86@SOURCE.VDC.Normal(chips)
+V_V2            V2(+=N00174 -=0 ) CN @CMOS.SCHEMATIC1(sch_1):INS118@SOURCE.VDC.Normal(chips)
+.ENDALIASES
